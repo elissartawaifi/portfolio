@@ -311,27 +311,25 @@ section {
 
 
 /*  ..........................PRINT................................ */
-
 @media print {
 
     :root {
         font-size: 14px;
     }
-
+    body{
+        background-color: white;
+    }
 
     .page {
 
         margin: 0;
-
+        border: none;
         width: 210mm;
-        height: 297mm;
+        min-height: 297mm;
         box-shadow: none;
 
 
     }
-
-
-
 
 
 }
