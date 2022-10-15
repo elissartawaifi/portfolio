@@ -232,9 +232,8 @@ header {
 .header-img>img {
     border: 0.4rem solid var(--clr-accent);
     border-radius: 100%;
-    width: 11rem;
     max-width: 100%;
-    width: 11rem;
+    width: 10rem;
     margin-bottom: 0;
    
 
