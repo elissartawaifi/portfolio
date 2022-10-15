@@ -484,7 +484,9 @@ header {
 }
 
 @media screen and (max-width:767px) {
-
+   :root {
+       font-size:0.75rem;
+    }
 
 
     body {
@@ -607,9 +609,7 @@ header {
 
 
 @media screen and (max-width:350px) {
-    :root {
-        font-size: 0.8rem;
-    }
+  
 
     .table {
         max-width: 98%;
